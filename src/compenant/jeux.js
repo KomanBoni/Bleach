@@ -95,7 +95,7 @@ function Combat() {
 
         {character && (
           <div>
-            <img src={character.image} alt={character.name} id="ntm" />
+            <img src={character.image} alt={character.name} id="perso" />
             <h3 className="character-text">Votre personnage : {character.name}</h3>
             <p className="health-text-green">Health: {character.health}</p>
             {character.techniques.map((technique, index) => (
