@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+
+body{
+    background-image: url('./image/fond\ bleach.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-section {
+  float: left; 
+  width: 50%;   
+  padding: 20px; 
+  box-sizing: border-box; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right-section {
+  float: right; 
+  width: 50%;   
+  padding: 20px; 
+  box-sizing: border-box; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#selectionpersonnage{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.combat-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.character-section {
+  flex: 1;
+  padding: 60px;
+  border: 1px solid #ccc;
+  margin: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.character-text {
+  color: blue; 
+}
+
+.health-text-green {
+  color: green; 
+}
+
+.opponent-text-color {
+  color: green;
+}
+
+.opponent-health-text-red {
+  color: red;
+}
+#ntm{
+  position: absolute;
+  margin-left: -100px;
 }
