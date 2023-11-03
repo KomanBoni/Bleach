@@ -49,7 +49,7 @@ body{
 .opponent-health-text-red {
   color: red;
 }
-#ntm{
+#perso{
   position: absolute;
   margin-left: -100px;
 }
