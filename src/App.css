@@ -1,4 +1,3 @@
-
 body{
     background-image: url('./image/fond\ bleach.jpeg');
     background-size: cover;
@@ -48,8 +47,4 @@ body{
 
 .opponent-health-text-red {
   color: red;
-}
-#perso{
-  position: absolute;
-  margin-left: -100px;
 }
